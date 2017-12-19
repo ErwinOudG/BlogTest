@@ -64,7 +64,7 @@ $obj3->setProperty("Ja wat nou ?!?");
 			<img src="img/2.jpg">
 		</div>
 		<h1>Welkom</h1>
-    <a href="#introduction" class="waves-effect waves-light btn-large">Button</a>
+    <a href="#introduction" class="waves-effect waves-light grey darken-4 btn-large">Lees meer...</a>
 	</div>
 	<div class="section white">
 		<div class="row container" id="introduction" class="section scrollspy">
