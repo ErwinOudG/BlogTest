@@ -63,7 +63,7 @@ $obj3->setProperty("Ja wat nou ?!?");
 		<div class="parallax">
 			<img src="img/2.jpg">
 		</div>
-		<h1>Hallo richard</h1>
+		<h1>Hallo Ryan</h1>
     <a href="#introduction" class="waves-effect waves-light grey darken-4 btn-large">Lees meer...</a>
 	</div>
 	<div class="section white">
