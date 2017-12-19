@@ -42,6 +42,7 @@ $obj3->setProperty("Ja wat nou ?!?");
 					</li>
 					<li><a href="mobile.html">Mobile</a>
 					</li>
+					 <li><a href="sass.html"><i class="material-icons">account_circle</i></a></li>
 				</ul>
 				<ul class="side-nav" id="mobile-demo">
 					<li><a href="sass.html">Sass</a>
@@ -67,7 +68,7 @@ $obj3->setProperty("Ja wat nou ?!?");
     <a href="#introduction" class="waves-effect waves-light grey darken-4 btn-large">Lees meer...</a>
 	</div>
 	<div class="section white">
-		<div class="row container" id="introduction" class="section scrollspy">
+		<div class="row container section scrollspy" id="introduction" >
 			<h2 class="header">Blog</h2>
 
       <div class="row">
@@ -171,12 +172,14 @@ $obj3->setProperty("Ja wat nou ?!?");
 		  $('.carousel.carousel-slider').carousel({fullWidth: true});
 		  $('.parallax').parallax();
 
-      $('.scrollspy').scrollSpy(
-        {scrollOffset: 500}
-      );
+
 
 
 		})
+		$(document).ready(function(){
+    $('.scrollspy').scrollSpy()
+		scrollOffset: 200;
+    });
 	</script>
 	<!--Import jQuery before materialize.js-->
 	<script src="js/prism.js"></script>
