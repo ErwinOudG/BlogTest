@@ -167,19 +167,13 @@ $obj3->setProperty("Ja wat nou ?!?");
 
 
 	<script type="text/javascript">
-		$( document ).ready(function(){
+		$( document ).ready(function()
+		{
 		  $(".button-collapse").sideNav();
 		  $('.carousel.carousel-slider').carousel({fullWidth: true});
 		  $('.parallax').parallax();
-
-
-
-
-		})
-		$(document).ready(function(){
-    $('.scrollspy').scrollSpy()
-		scrollOffset: 200;
-    });
+      $('.scrollspy').scrollSpy({scrollOffset: 40});
+		});
 	</script>
 	<!--Import jQuery before materialize.js-->
 	<script src="js/prism.js"></script>
