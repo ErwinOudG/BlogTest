@@ -1,17 +1,3 @@
-<?php include_once ('pages/oop.php');?>
-
-
-<?php
-$obj = new auto;
-$obj2 = new auto;
-$obj3 = new auto;
-
-$obj->setProperty("I'm a new property value!");
-$obj2->setProperty("I belong to the second instance!");
-$obj3->setProperty("Ja wat nou ?!?");
-
-
-?>
 <!DOCTYPE html>
 <html>
 
@@ -72,7 +58,7 @@ $obj3->setProperty("Ja wat nou ?!?");
 			<h2 class="header">Blog</h2>
 
       <div class="row">
-        <div class="col s4">
+        <div class="col m4 s12">
           <div class="card">
             <div class="card-image">
               <img src="img/1.jpg">
@@ -91,7 +77,7 @@ $obj3->setProperty("Ja wat nou ?!?");
 
 
 
-    <div class="col s4">
+    <div class="col m4 s12">
       <div class="card">
         <div class="card-image">
           <img src="img/1.jpg">
@@ -108,7 +94,7 @@ $obj3->setProperty("Ja wat nou ?!?");
     </div>
 
 
-  <div class="col s4">
+  <div class="col m4 s12">
     <div class="card">
       <div class="card-image">
         <img src="img/1.jpg">
@@ -141,7 +127,7 @@ $obj3->setProperty("Ja wat nou ?!?");
 				<div class="col l6 s12">
 					<h5 class="white-text">Footer Content</h5>
 					<p class="grey-text text-lighten-4">You can use rows and columns here
-            to organize your footer content.</p><?php echo $obj3->getProperty();?>
+            to organize your footer content.</p>
 				</div>
 				<div class="col l4 offset-l2 s12">
 					<h5 class="white-text">Links</h5>
@@ -172,7 +158,7 @@ $obj3->setProperty("Ja wat nou ?!?");
 		  $(".button-collapse").sideNav();
 		  $('.carousel.carousel-slider').carousel({fullWidth: true});
 		  $('.parallax').parallax();
-      $('.scrollspy').scrollSpy({scrollOffset: 40});
+      $('.scrollspy').scrollSpy({scrollOffset: 50});
 		});
 	</script>
 	<!--Import jQuery before materialize.js-->
