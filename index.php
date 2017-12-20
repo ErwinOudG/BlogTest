@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="js/prism.js"></script>
 	<link href="css/prism.css" rel="stylesheet" />
 </head>
 
@@ -30,7 +31,7 @@
 					</li>
 					 <li><a href="sass.html"><i class="material-icons">account_circle</i></a></li>
 				</ul>
-				<ul class="side-nav" id="mobile-demo">
+				<ul class="side-nav white" id="mobile-demo">
 					<li><a href="sass.html">Sass</a>
 					</li>
 					<li><a href="badges.html">Components</a>
@@ -50,8 +51,8 @@
 		<div class="parallax">
 			<img src="img/2.jpg">
 		</div>
-		<h1>Hallo Ryan</h1>
-    <a href="#introduction" class="waves-effect waves-light grey darken-4 btn-large">Lees meer...</a>
+		<h1>Hello world</h1>
+    <a href="#introduction" class="waves-effect waves-light amber accent-4 btn-large">Lees meer...</a>
 	</div>
 	<div class="section white">
 		<div class="row container section scrollspy" id="introduction" >
@@ -116,20 +117,39 @@
 	<div class="parallax-container">
 		<div class="parallax">
 			<img src="img/1.jpg">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col m4 offset-m4">
+
+		</div>
+		</div>
 		</div>
 	</div>
+
 
 
 
 	<footer class="page-footer grey darken-4">
 		<div class="container">
 			<div class="row">
-				<div class="col l6 s12">
+				<div class="col l3 s12">
 					<h5 class="white-text">Footer Content</h5>
 					<p class="grey-text text-lighten-4">You can use rows and columns here
             to organize your footer content.</p>
 				</div>
-				<div class="col l4 offset-l2 s12">
+				<div class="col l3 s12">
+					<h5 class="white-text">Meest recent</h5>
+					<p class="grey-text text-lighten-4">You can use rows and columns here
+            to organize your footer content.</p>
+				</div>
+				<div class="col l3 s12">
+					<h5 class="white-text">Tags</h5>
+					<div class="chip"><i class="close material-icons">code</i>HTML</div>
+					<div class="chip"><i class="close material-icons">code</i>Css</div>
+					<div class="chip"><i class="close material-icons">code</i>Javascript</div>
+				</div>
+				<div class="col l3  s12">
 					<h5 class="white-text">Links</h5>
 					<ul>
 						<li><a class="grey-text text-lighten-3" href="#!">Link 1</a>
@@ -144,7 +164,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-copyright">
+		<div class="footer-copyright blue-grey darken-4">
 			<div class="container">© 2017 Copyright Text <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
 			</div>
 		</div>
@@ -162,7 +182,7 @@
 		});
 	</script>
 	<!--Import jQuery before materialize.js-->
-	<script src="js/prism.js"></script>
+
 </body>
 
 </html>
