@@ -32,7 +32,7 @@
 					 <li><a href="pages/posts.php"><i class="material-icons">account_circle</i></a></li>
 				</ul>
 				<ul class="side-nav white" id="mobile-demo">
-					<li><a href="sass.html">Sass</a>
+					<li><a href="pages/blog.php">Blog</a>
 					</li>
 					<li><a href="badges.html">Components</a>
 					</li>
@@ -59,7 +59,7 @@
 			<h5 class="header">Recente Blogs</h5>
 
 <div class="row">
-			<?
+			<?php
 			for($i = 0; $i<=2; $i++){
 			?>
 
@@ -83,46 +83,12 @@
 
 
 
-			<?
+			<?php
 			}
 			?>
 </div>
 </div>
 </div>
-
-    <!-- <div class="col m4 s12">
-      <div class="card">
-        <div class="card-image">
-          <img src="img/1.jpg">
-          <span class="card-title">Card Title</span>
-        </div>
-        <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Lees verder</a>
-        </div>
-      </div>
-    </div>
-
-
-  <div class="col m4 s12">
-    <div class="card">
-      <div class="card-image">
-        <img src="img/1.jpg">
-        <span class="card-title">Card Title</span>
-      </div>
-      <div class="card-content">
-        <p>I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
-      </div>
-      <div class="card-action">
-        <a href="#">Lees verder</a>
-      </div>
-    </div>
-  </div> -->
-
 
 
 	<div class="parallax-container">
@@ -184,13 +150,13 @@
 
 
 	<script type="text/javascript">
-		$( document ).ready(function()
-		{
+		  $( document ).ready(function()
+		  {
 		  $(".button-collapse").sideNav();
 		  $('.carousel.carousel-slider').carousel({fullWidth: true});
 		  $('.parallax').parallax();
-      $('.scrollspy').scrollSpy({scrollOffset: 50});
-		});
+          $('.scrollspy').scrollSpy({scrollOffset: 50});
+		  });
 	</script>
 	<!--Import jQuery before materialize.js-->
 

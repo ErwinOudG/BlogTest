@@ -19,7 +19,7 @@
 
   <div class="navbar-fixed">
     <nav>
-      <div class="nav-wrapper grey darken-4"> <a href="../index.php" class="brand-logo">Logo</a>
+      <div class="nav-wrapper grey darken-4"> <a href="../index.php" class="brand-logo">? : What</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="../pages/bloggies.php">Blog</a>
@@ -32,7 +32,7 @@
           </li>
            <li><a href="posts.php"><i class="material-icons">account_circle</i></a></li>
         </ul>
-        <ul class="side-nav white" id="mobile-demo">
+        <ul class="side-nav " id="mobile-demo">
           <li><a href="..pages/blog.php">Sass</a>
           </li>
           <li><a href="badges.html">Components</a>

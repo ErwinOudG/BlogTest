@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+html{
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+
+}
+/*body{
+	background-image: url(../img/bo.png);
+	background-repeat: repeat;
+}
+*/
+nav .brand-logo{
+	padding-left: 30px;
+	font-weight: 700;
+}
 .parallax-container{
   text-align: center;
   color: #fff;
@@ -6,4 +23,38 @@
 
 #blogimg{
   padding-top: 10px;
+}
+
+#header-img{
+	width: 100vw;
+	height: 350px;
+	object-fit: cover;
+}
+#header-overlay{
+	position: absolute;
+	width: 100vw;
+	height: 350px;
+	background-image: url(../img/bo.png);
+	background-repeat: repeat;
+	opacity: .7;
+}
+
+
+.header-text-img{
+	position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:50px;
+    font-weight:700;
+}
+#sidebars h6{
+	text-transform: uppercase;
+	padding-top: 40px;
+	font-weight: 700;
 }

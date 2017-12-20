@@ -4,15 +4,16 @@ include_once('../includes/header.php');
 ?>
 <div class="container">
    <div class="row">
-     <div class="col l10 s12" id="blogimg">
+     <div class="col l9 s12" id="blogimg">
+      <h5>Auteurs</h5>
 
-       <?
+       <?php
  			for($i = 0; $i<=5; $i++){
  			?>
 
 
 
-      <div class="col s6">
+      <div class="col l6 s12">
         <div class="card">
           <div class="card-image">
             <img src="../img/2.jpg">
@@ -27,15 +28,17 @@ include_once('../includes/header.php');
 
 
 
- 			<?
+ 			<?php
  			}
  			?>
-</div>
-       <?include_once('../includes/sidebar.php');?>
+  </div>
+       <?php 
+       include_once('../includes/sidebar.php');
+       ?>
 
    </div>
 </div>
 
-  <?
+  <?php
    include_once('../includes/footer.php');
    ?>
