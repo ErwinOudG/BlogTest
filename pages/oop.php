@@ -16,4 +16,16 @@ class auto
 }
 
 
+
+
+//attributes van een blog.
+//methods zijn de functies.
+
+//DESTRUCTOR==KAPOT===died();
+
+class Blog{
+
+}
+
+
 ?>

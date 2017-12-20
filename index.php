@@ -21,7 +21,7 @@
 			<div class="nav-wrapper grey darken-4"> <a href="#!" class="brand-logo">Logo</a>
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="pages/blog.php">Blog</a>
+					<li><a href="pages/bloggies.php">Blog</a>
 					</li>
 					<li><a href="badges.html">Components</a>
 					</li>
@@ -60,7 +60,7 @@
 
 <div class="row">
 			<?
-			for($i = 0; $i<=5; $i++){
+			for($i = 0; $i<=2; $i++){
 			?>
 
 
@@ -76,7 +76,7 @@
               I am convenient because I require little markup to use effectively.</p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="pages/blog.php">Lees verder</a>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@
           I am convenient because I require little markup to use effectively.</p>
         </div>
         <div class="card-action">
-          <a href="#">This is a link</a>
+          <a href="#">Lees verder</a>
         </div>
       </div>
     </div>
@@ -118,7 +118,7 @@
         I am convenient because I require little markup to use effectively.</p>
       </div>
       <div class="card-action">
-        <a href="#">This is a link</a>
+        <a href="#">Lees verder</a>
       </div>
     </div>
   </div> -->
