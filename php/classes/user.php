@@ -20,7 +20,23 @@ class NAW implements JsonSerializable{
 
   public function select()        {   }
 
-  public function insert()        {   }
+  public function insert($post) {
+    global $conn;
+
+    $userid = (isset($post["userid"])) ? $post["userid"] : "";
+    $name = (isset($post["name"])) ? $post["name"] : "";
+    $role = (isset($post["role"])) ? $post["role"] : "";
+    $birthday = (isset($post["birthday"])) ? $post["birthday"] : "";
+    $lastblog = (isset($post["lastblog"])) ? $post["lastblog"] : "";
+    $firstblog = (isset($post["firstblog"])) ? $post["firstblog"] : "";
+    $accountdate = (isset($post["accountdate"])) ? $post["accountdate"] : "";
+    $description = (isset($post["description"])) ? $post["description"] : "";
+    $active = (isset($post["active"])) ? $post["active"] : "";
+    $password = (isset($post["password"])) ? $post["password"] : "";
+
+    $password = password_hash($password, PASSWORD_DEFAULT);
+
+     }
 
   public function delete()        {   }
 

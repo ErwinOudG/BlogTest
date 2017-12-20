@@ -3,6 +3,8 @@ private db_host = ‘loclhost’;
 private db_user = ‘root’;
 private db_pass = ‘root’;
 private db_name = ‘blogdb’;
+$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
+
 
 public function connect() {
   if(!$this->con) {
