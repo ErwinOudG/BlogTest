@@ -25,13 +25,12 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.php">Dashboard</a></li>
-            <li><a href="blogs.php">Pages</a></li>
-            <li><a href="posts.php">Posts</a></li>
-            <li class="active"><a href="users.php">Users</a></li>
+
+            <li><a href="posts.php">Mijn Blogs</a></li>
+            <li class="active"><a href="users.php">Gebruikers</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Welcome, Brad</a></li>
+            <li><a href="#">Welkom, (Naam)</a></li>
             <li><a href="login.php">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -92,7 +91,7 @@
                     <p>meuk</p>
                     <p>meuk</p>
                   </div>
-          </div>
+              </div>
             </div>
           </div>
           <div class="col-md-9">
