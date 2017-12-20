@@ -21,7 +21,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">BlogTest</a>
+          <a class="navbar-brand" href="../index.php">BlogTest</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
 
@@ -66,9 +66,13 @@
                   </div>
                   <div class="form-group">
                     <label>Paswoord</label>
-                    <input type="password" class="form-control" placeholder="Password">
+                    <input type="password" class="form-control" placeholder="Paswoord">
                   </div>
-                  <button type="submit" class="btn btn-default btn-block">Login</button>
+                  <div class="form-group">
+                    <label>Herhaal Paswoord</label>
+                    <input type="password" class="form-control" placeholder="Nogmaals Paswoord">
+                  </div>
+                  <button type="submit" class="btn btn-default btn-block">Registreer</button>
               </form>
           </div>
         </div>

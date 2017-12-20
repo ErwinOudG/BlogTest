@@ -21,7 +21,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">BlogTest</a>
+          <a class="navbar-brand" href="../index.php">BlogTest</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -40,7 +40,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10">
-            <h1><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Edit Page<small>About</small></h1>
+            <h1><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><small>Schrijf een blog</small></h1>
           </div>
 
             </div>
@@ -49,15 +49,6 @@
       </div>
     </header>
 
-    <section id="breadcrumb">
-      <div class="container">
-        <ol class="breadcrumb">
-          <li><a href="index.php">Dashboard</a></li>
-          <li><a href="blogs.php">Pages</a></li>
-          <li class="active">Edit Page</li>
-        </ol>
-      </div>
-    </section>
 
     <section id="main">
       <div class="container">

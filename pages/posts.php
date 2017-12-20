@@ -21,7 +21,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">BlogTest</a>
+          <a class="navbar-brand" href="../index.php">BlogTest</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -45,21 +45,13 @@
           </div>
           <div class="col-md-2">
             <div class="dropdown create">
-              <button class="btn btn-primary" type="button" id="dropdownMenu1">Schrijf een blog!</button>
+            <a href="edit.php"><button class="btn btn-primary" type="button" id="dropdownMenu1">Schrijf een blog!</button></a>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <section id="breadcrumb">
-      <div class="container">
-        <ol class="breadcrumb">
-          <li><a href="index.php">Dashboard</a></li>
-          <li class="active">Posts</li>
-        </ol>
-      </div>
-    </section>
 
     <section id="main">
       <div class="container">
@@ -113,25 +105,25 @@
                         <td>Blog Post 1</td>
                         <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
                         <td>Dec 12, 2016</td>
-                        <td><a class="btn btn-default" href="edit.php">Edit</a> <a class="btn btn-danger" href="#">Delete</a></td>
+                        <td><a class="btn btn-default" href="edit.php">Bewerken</a> <a class="btn btn-danger" href="#">Verwijder</a></td>
                       </tr>
                       <tr>
                         <td>Blog Post 2</td>
                         <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
                         <td>Dec 13, 2016</td>
-                        <td><a class="btn btn-default" href="edit.php">Edit</a> <a class="btn btn-danger" href="#">Delete</a></td>
+                        <td><a class="btn btn-default" href="edit.php">Bewerken</a> <a class="btn btn-danger" href="#">Verwijder</a></td>
                       </tr>
                       <tr>
                         <td>Blog Post 3</td>
                         <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
                         <td>Dec 13, 2016</td>
-                        <td><a class="btn btn-default" href="edit.php">Edit</a> <a class="btn btn-danger" href="#">Delete</a></td>
+                        <td><a class="btn btn-default" href="edit.php">Bewerken</a> <a class="btn btn-danger" href="#">Verwijder</a></td>
                       </tr>
                       <tr>
                         <td>Blog Post 4</td>
                         <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
                         <td>Dec 14, 2016</td>
-                        <td><a class="btn btn-default" href="edit.php">Edit</a> <a class="btn btn-danger" href="#">Delete</a></td>
+                        <td><a class="btn btn-default" href="edit.php">Bewerken</a> <a class="btn btn-danger" href="#">Verwijder</a></td>
                       </tr>
                     </table>
               </div>

@@ -21,7 +21,7 @@
 			<div class="nav-wrapper grey darken-4"> <a href="#!" class="brand-logo">Logo</a>
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="sass.html">Sass</a>
+					<li><a href="pages/blog.php">Blog</a>
 					</li>
 					<li><a href="badges.html">Components</a>
 					</li>
@@ -56,14 +56,20 @@
 	</div>
 	<div class="section white">
 		<div class="row container section scrollspy" id="introduction" >
-			<h2 class="header">Blog</h2>
+			<h5 class="header">Recente Blogs</h5>
 
-      <div class="row">
+<div class="row">
+			<?
+			for($i = 0; $i<=5; $i++){
+			?>
+
+
+
         <div class="col m4 s12">
           <div class="card">
             <div class="card-image">
               <img src="img/1.jpg">
-              <span class="card-title">Card Title</span>
+              <span class="card-title"><? echo $title[$i]?></span>
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -77,8 +83,14 @@
 
 
 
+			<?
+			}
+			?>
+</div>
+</div>
+</div>
 
-    <div class="col m4 s12">
+    <!-- <div class="col m4 s12">
       <div class="card">
         <div class="card-image">
           <img src="img/1.jpg">
@@ -109,11 +121,10 @@
         <a href="#">This is a link</a>
       </div>
     </div>
-  </div>
+  </div> -->
 
-</div>
-</div>
-</div>
+
+
 	<div class="parallax-container">
 		<div class="parallax">
 			<img src="img/1.jpg">
