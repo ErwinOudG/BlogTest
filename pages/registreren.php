@@ -56,6 +56,10 @@
                 <label>Over mij</label>
                 <textarea rows="4" cols="50" class="form-control" placeholder="Vertel in het kort iets over uzelf"></textarea>
               </div>
+              <div class="form-group">
+                  <label for="exampleFormControlFile1">Upload Profielfoto</label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
                   <div class="form-group">
                     <label>Email Adres</label>
                     <input type="text" class="form-control" placeholder="Enter Email">

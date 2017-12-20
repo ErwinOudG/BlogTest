@@ -29,7 +29,7 @@
 					</li>
 					<li><a href="mobile.html">Mobile</a>
 					</li>
-					 <li><a href="sass.html"><i class="material-icons">account_circle</i></a></li>
+					 <li><a href="pages/posts.php"><i class="material-icons">account_circle</i></a></li>
 				</ul>
 				<ul class="side-nav white" id="mobile-demo">
 					<li><a href="sass.html">Sass</a>
