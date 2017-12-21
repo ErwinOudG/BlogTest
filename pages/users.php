@@ -45,7 +45,7 @@
           </div>
           <div class="col-md-2">
             <div class="dropdown create">
-              <button class="btn btn-primary" type="button" id="dropdownMenu1">Schrijf een blog!</button>
+              <a href="edit.php"><button class="btn btn-primary" type="button" id="dropdownMenu1">Schrijf een blog!</button></a>
 
 
             </div>
