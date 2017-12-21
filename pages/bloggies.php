@@ -35,12 +35,28 @@ include_once('../includes/header.php');
  			}
  			?>
 </div>
-       <?php 
+       <?php
        include_once('../includes/sidebar.php');
        ?>
 
    </div>
 </div>
+<div class="container">
+   <div class="row">
+     <div class="col l4  s12">
+        <ul class="pagination">
+           <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+           <li class="active grey darken-4"><a href="#!">1</a></li>
+           <li class="waves-effect"><a href="#!">2</a></li>
+           <li class="waves-effect"><a href="#!">3</a></li>
+           <li class="waves-effect"><a href="#!">4</a></li>
+           <li class="waves-effect"><a href="#!">5</a></li>
+           <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+         </ul>
+       </div>
+       </div>
+       </div>
+
 
   <?php
    include_once('../includes/footer.php');
