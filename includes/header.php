@@ -28,7 +28,7 @@
           </li>
           <li><a href="collapsible.html">Javascript</a>
           </li>
-          <li><a href="mobile.html">Mobile</a>
+          <li><a class="modal-trigger" href="#modal1">Inloggen</a>
           </li>
            <li><a href="posts.php"><i class="material-icons">account_circle</i></a></li>
         </ul>
@@ -44,4 +44,34 @@
         </ul>
       </div>
     </nav>
+  </div>
+	<div id="modal1" class="modal">
+ 	 <div class="modal-content">
+ 		 <div class="row">
+     <form class="col s12">
+
+
+       <div class="row">
+         <div class="input-field col s12">
+           <input id="email" type="email" class="validate">
+           <label for="email">Email</label>
+         </div>
+       </div>
+ 			<div class="row">
+ 				<div class="input-field col s12">
+ 					<input id="password" type="password" class="validate">
+ 					<label for="password">Password</label>
+ 				</div>
+ 			</div>
+			<button class="btn waves-effect waves-light" type="submit" name="action">Inloggen
+    <i class="material-icons right">send</i>
+  </button>
+
+         </div>
+       </div>
+     </form>
+
+ 	 <div class="modal-footer">
+ 		 <a href="pages/registreren.php" class="modal-action modal-close waves-effect waves-green btn-flat">Registreren</a>
+ 	 </div>
   </div>

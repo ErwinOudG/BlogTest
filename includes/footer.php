@@ -44,6 +44,8 @@
   $( document ).ready(function()
   {
     $(".button-collapse").sideNav();
+    $('select').material_select();
+    $('.modal').modal();
     $('.carousel.carousel-slider').carousel({fullWidth: true});
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy({scrollOffset: 50});

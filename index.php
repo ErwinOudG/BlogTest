@@ -66,6 +66,9 @@
 					<label for="password">Password</label>
 				</div>
 			</div>
+			<button class="btn waves-effect waves-light" type="submit" name="action">Inloggen
+    <i class="material-icons right">send</i>
+  </button>
 
         </div>
       </div>
@@ -184,6 +187,7 @@
 		  $( document ).ready(function()
 		  {
 		  $(".button-collapse").sideNav();
+			$('select').material_select();
 			$('.modal').modal();
 		  $('.carousel.carousel-slider').carousel({fullWidth: true});
 		  $('.parallax').parallax();
