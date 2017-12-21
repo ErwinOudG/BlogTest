@@ -58,3 +58,11 @@ nav .brand-logo{
 	padding-top: 40px;
 	font-weight: 700;
 }
+.tags p{
+  padding: 5px;
+  
+  border-radius: 5px;
+  text-align: center;
+  background-color: #b0bec5;
+  color: #fff;
+}

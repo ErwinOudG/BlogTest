@@ -18,7 +18,7 @@
 <body>
 	<div class="navbar-fixed">
 		<nav>
-			<div class="nav-wrapper grey darken-4"> <a href="#!" class="brand-logo">Logo</a>
+			<div class="nav-wrapper grey darken-4"> <a href="#!" class="brand-logo">ZEEMES</a>
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="pages/bloggies.php">Blog</a>
