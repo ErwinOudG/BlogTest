@@ -22,4 +22,7 @@
       	
       </div>
   </div>
+  <h6>Tags</h6>
+  
+
 </div>

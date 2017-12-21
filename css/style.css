@@ -6,11 +6,11 @@ html{
   overflow-x: hidden;
 
 }
-/*body{
-	background-image: url(../img/bo.png);
+body{
+	background-image: url(../img/ds.png);
 	background-repeat: repeat;
 }
-*/
+
 nav .brand-logo{
 	padding-left: 30px;
 	font-weight: 700;
