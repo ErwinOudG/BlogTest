@@ -65,6 +65,10 @@
                     <input type="text" class="form-control" placeholder="Enter Email">
                   </div>
                   <div class="form-group">
+                    <label>Herhaal Email</label>
+                    <input type="text" class="form-control" placeholder="Nogmaals Email">
+                  </div>
+                  <div class="form-group">
                     <label>Paswoord</label>
                     <input type="password" class="form-control" placeholder="Paswoord">
                   </div>
